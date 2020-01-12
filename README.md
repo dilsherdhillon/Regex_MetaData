@@ -9,3 +9,4 @@ The goal of Regex_metadata is to demonstrate how to use regex in conjunction wit
 # Files  
 The notebook `regex_meta.rmd` takes in as example two file names(from the 320 csv files of the engine test), and demonstrates how to extract the needed information from the file names.   
 
+![File Structure](file_structure.png)) 
