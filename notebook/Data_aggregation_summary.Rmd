@@ -38,7 +38,9 @@ This document describes the process of merging and extracting engine test data f
 Each parameter has 40 files associated with it, and these 40 files represent each combination of load and speed set for the experiment.  There are 8 parameters of interest.   The naming conventions and the file structures look like 
 
 
-![File Structure](file_structure.png)) 
+![File Structure](png/file_structure.png)) 
+![File Structure](png/file_structure_2.png)) 
+
 
 The first number after the parameter `F_Z_LP_PZC` , represented the speed that was set for that particular run, and within each file, there is a variable `SPEED`, which is what was *measured*.  Similarly, the number after the speed, is the load that was set for the experiment, and each file contains a variable `IMEP1`, that indicates what was the *measured* load.   
 
@@ -241,6 +243,9 @@ data_aggregation_dt <- function(files, string = "") {
 }
 ```
 
+```{r}
+sessionInfo()
+```
 
 
 
